@@ -4,6 +4,6 @@
 # Contact rafaelcgstz@gmail.com
 #
 
-update(){
+update.sh(){
 	sudo apt-get update;
 }

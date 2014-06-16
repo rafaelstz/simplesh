@@ -31,7 +31,7 @@ Create by Rafael Corrêa Gomes
 
 ===================================
 
-${txtrst}Enter an option without .sh:
+${txtrst}Option:
 
 ${Red}########## System${txtrst}
  "
@@ -72,6 +72,10 @@ echo -e "
 
 
 e - Exit
+
+==================================
+
+Enter an option:
 "
     read program
 

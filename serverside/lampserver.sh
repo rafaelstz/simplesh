@@ -4,7 +4,7 @@
 # Contact rafaelcgstz@gmail.com
 #
 
-lampserver(){
+lampserver.sh(){
 	sudo apt-get update;
 	sudo apt-get install lamp-server^;
 	sudo service apache2 restart

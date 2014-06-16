@@ -4,6 +4,6 @@
 # Contact rafaelcgstz@gmail.com
 #
 
-upgrade(){
+upgrade.sh(){
 	sudo apt-get upgrade;
 }
