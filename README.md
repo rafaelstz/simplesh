@@ -6,7 +6,7 @@ Hello, see how easy it is to install any application through **Simple SH**, with
 
 
 ----------
- <i class="icon-cog"></i>**Installation**
+ <i class="icon-cog"></i>**Run**
 ------------
 
 Just run the following code in the terminal:
@@ -14,7 +14,8 @@ Just run the following code in the terminal:
 
     cd ~/Downloads ;
     rm -rf simplesh-master/;
-    wget -qO- -O simplesh.zip https://github.com/rafaelstz/simplesh/archive/master.zip && unzip simplesh.zip && rm simplesh.zip;
+    wget -qO- -O simplesh.zip https://github.com/rafaelstz/simplesh/archive/master.zip;
+    unzip simplesh.zip && rm simplesh.zip;
     cd simplesh-master/ ; clear;
     bash simple.sh;
 
@@ -29,4 +30,5 @@ Just run the following code in the terminal:
 
 ----------
 <i class="icon-pencil"></i> Developed by Rafael Corrêa Gomes
+
 <i class="icon-share"></i> Contact rafaelcgstz@gmail.com

@@ -8,6 +8,6 @@
 ready(){
 	echo "
 		 ======================
-		 	   Executed!
+		 	Executed!
 		 "
 }
