@@ -12,3 +12,6 @@
 
 # Import Brackets
 . desktop/brackets.sh
+
+# Import Atom
+. desktop/atom.sh
