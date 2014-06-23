@@ -15,3 +15,6 @@
 
 # Import Atom
 . desktop/atom.sh
+
+# Import PopCorn
+. desktop/popcorn.sh
