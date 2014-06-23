@@ -4,8 +4,5 @@
 # Contact rafaelcgstz@gmail.com
 #
 
-# Import Colors
-. base/color.sh
-
-# Import message
-. base/message.sh
+# Import LampServer
+. server/lamp.sh

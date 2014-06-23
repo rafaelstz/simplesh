@@ -48,7 +48,7 @@ echo -e "
 ${Yellow}########## Server Side
 ${txtrst} "
 
-for file in $(ls ./serverside)
+for file in $(ls ./server)
 do
     if [ $file != import.sh ]
     then

@@ -5,4 +5,10 @@
 #
 
 # Import Spotify
-. desktop/spotify-cli.sh
+. desktop/spotify.sh
+
+# Import SublimeText
+. desktop/sublimetext.sh
+
+# Import Brackets
+. desktop/brackets.sh
