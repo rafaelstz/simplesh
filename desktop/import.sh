@@ -18,3 +18,6 @@
 
 # Import PopCorn
 . desktop/popcorn.sh
+
+# Import Google Drive
+. desktop/googledrive.sh
