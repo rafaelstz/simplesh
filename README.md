@@ -32,3 +32,5 @@ Just run the following code in the terminal:
 <i class="icon-pencil"></i> Developed by Rafael Corrêa Gomes
 
 <i class="icon-share"></i> Contact rafaelcgstz@gmail.com
+
+copyright © 2014 SimpleSH. All rights reserved.
