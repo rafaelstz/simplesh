@@ -4,73 +4,99 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
+    <link rel="stylesheet" href="components/roboto-fontface/roboto-fontface.css"/>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
 
-    <title>Simple SH Tools by rafaelstz</title>
+      <script src="components/jquery/dist/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+
+    <title>Simple SH Tools</title>
   </head>
 
   <body>
-
     <header>
-      <div class="container">
-        <h1>Simple SH Tools</h1>
-        <h2> Install your favorite applications through a command via Ubuntu terminal.</h2>
-
-        <section id="downloads">
-          <a href="https://github.com/rafaelstz/simplesh/zipball/master" class="btn">Download as .zip</a>
-          <a href="https://github.com/rafaelstz/simplesh/tarball/master" class="btn">Download as .tar.gz</a>
-          <a href="https://github.com/rafaelstz/simplesh" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        <section class="wrapp">
+            <a href="https://github.com/rafaelstz/simplesh" class="git" target="_blank">.view on GitHub</a>
+            <h1>./Simple SH Tools</h1>
+            <p class="info">Install your favorite applications through a command via Ubuntu terminal.</p>
         </section>
-      </div>
     </header>
 
-    <div class="container">
-      <section id="main_content">
-        <h1>
-<a name="welcome-to-simple-sh-tools" class="anchor" href="#welcome-to-simple-sh-tools"><span class="octicon octicon-link"></span></a>Welcome to Simple SH Tools!</h1>
+    <section id="welcome" class="welcome">
+        <article class="wrapp">
+            <h1>Welcome to Simple SH Tool!</h1>
+            <p>Hello, see how easy it is to install any application through <strong>Simple SH</strong>, with one command you perform the installation of your application dependencies.</p>
+        </article>
+    </section>
 
-<p>Hello, see how easy it is to install any application through <strong>Simple SH</strong>, with one command you perform the installation of your application dependencies.</p>
-
-<hr><h2>
-<a name="-run" class="anchor" href="#-run"><span class="octicon octicon-link"></span></a> <i></i><strong>Run</strong>
-</h2>
-
-<p>Just run the following code in the terminal:</p>
-
-<pre><code>cd ~/Downloads ;
+    <section id="run" class="run">
+        <article class="wrapp">
+            <h1>1. Run this code</h1>
+            <pre>
+<code>
+<div><span></span><span></span><span></span></div>
+cd ~/Downloads;
 rm -rf simplesh-master/;
 wget -qO- -O simplesh.zip https://github.com/rafaelstz/simplesh/archive/master.zip;
-unzip simplesh.zip &amp;&amp; rm simplesh.zip;
-cd simplesh-master/ ; clear;
-bash simple.sh;
-</code></pre>
+unzip simplesh.zip && rm simplesh.zip;
+cd simplesh-master/;
+clear; bash simple.sh;</code></pre>
+        </article>
+    </section>
 
-<hr><h2>
-<a name="-how-can-you-help" class="anchor" href="#-how-can-you-help"><span class="octicon octicon-link"></span></a><strong><i></i> How can you help?</strong>
-</h2>
+    <section id="choose" class="choose">
+        <article class="wrapp">
+            <h1>2. Choose an option</h1>
+             <pre>
+<code>
+<div><span></span><span></span><span></span></div>
+cd ~/Downloads;
+rm -rf simplesh-master/;
+wget -qO- -O simplesh.zip https://github.com/rafaelstz/simplesh/archive/master.zip;
+unzip simplesh.zip && rm simplesh.zip;
+cd simplesh-master/;
+clear; bash simple.sh;</code></pre>
+        </article>
+    </section>
 
-<ul>
-<li>Add new commands</li>
-<li>Send me some proposals if you miss anything</li>
-<li>Create issues if you find a bug or missing a feature.</li>
-</ul><hr><p><i></i> Developed by Rafael Corrêa Gomes</p>
+    <section id="contribute" class="contribute">
+        <article class="wrapp">
+            <h1>3. Contribute on GitHub</h1>
 
-<p><i></i> Contact <a href="mailto:rafaelcgstz@gmail.com">rafaelcgstz@gmail.com</a></p>
-      </section>
-    </div>
+            <section class="release">
+                <h2>How can you help?</h2>
+                <ul>
+                    <li>Add new commands</li>
+                    <li>Send me some proposals if you miss anything</li>
+                    <li>Create issues if you find a bug or missing a feature</li>
+                </ul>
+            </section>
+        </article>
+    </section>
 
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-23597506-7");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
+    <section id="credits" class="credits">
+        <article class="wrapp">
+            <h2>Developed by: Rafael Corrêa Gomes</h2>
+            <a href="mailto:rafaelstz@gmail.com">rafaelstz@gmail.com</a>
+        </article>
+    </section>
+
+    <footer>
+        <p>Made with by: <a href="http://whenrique.com.br/" target="_blank">Wes</a></p>
+    </footer>
+
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    try {
+      var pageTracker = _gat._getTracker("UA-23597506-7");
+    pageTracker._trackPageview();
+    } catch(err) {}
+    </script>
 
   </body>
 </html>
