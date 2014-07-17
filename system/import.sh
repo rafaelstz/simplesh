@@ -9,3 +9,6 @@
 
 # Import Update
 . system/update.sh
+
+# Import Oh-My-ZSH
+. system/ohmyzsh.sh
