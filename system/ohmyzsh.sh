@@ -5,21 +5,5 @@
 #
 
 ohmyzsh.sh(){
-	clear
-    echo -e "
-${Yellow}Mode for install Wget or Curl ?
-${txtrst}1) Wget
-2) Curl
-
-"
-
-read ohmyzsh
-case $ohmyzsh in
-
-    # Performs the function with the name of the variable passed
-    1) wget --no-check-certificate http://install.ohmyz.sh -O - | sh;;
-    2) sudo apt-get install curl; curl -L http://install.ohmyz.sh | sh;;
-    *) ohmyzsh.sh;;
-
-esac
+clear; sudo apt-get update && sudo apt-get install zsh; wget –no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O – | sh; chsh -s /bin/zsh; wget --no-check-certificate http://install.ohmyz.sh -O - | sh;;
 }
