@@ -6,3 +6,6 @@
 
 # Import LampServer
 . server/lamp.sh
+
+# Import WP-CLI
+. server/wpcli.sh
