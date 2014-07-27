@@ -9,3 +9,6 @@
 
 # Import WP-CLI
 . server/wpcli.sh
+
+# Import Nginx
+. server/nginx.sh
