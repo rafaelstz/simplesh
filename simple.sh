@@ -31,7 +31,7 @@ Create by Rafael Corrêa Gomes
 
 ===================================
 
-${txtrst}Option:
+${txtrst}Options:
 
 ${Red}########## System${txtrst}
  "

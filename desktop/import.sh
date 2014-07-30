@@ -21,3 +21,6 @@
 
 # Import Google Drive
 . desktop/googledrive.sh
+
+# Import PhpStorm
+. desktop/phpstorm.sh
