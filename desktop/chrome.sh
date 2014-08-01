@@ -21,9 +21,9 @@ ${txtrst}
 case $version in
 
     # Performs the function with the name of the variable passed
-    1) chrome32 ;;
-    2) chrome64 ;;
-    *) chrome.sh ;;
+    1) chrome32 ;
+    2) chrome64 ;
+    *) chrome.sh ;
 
 esac
 }
