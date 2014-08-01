@@ -17,8 +17,7 @@ Just run the following code in the terminal:
     wget -qO- -O simplesh.zip https://github.com/rafaelstz/simplesh/archive/master.zip ;
     unzip simplesh.zip && rm simplesh.zip ;
     cd simplesh-master/ ; clear;
-    bash simple.sh ;
-    clear ;
+    bash simple.sh
 
 ----------
 **<i class="icon-upload"></i> How can you help?**
