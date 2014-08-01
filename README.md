@@ -13,11 +13,12 @@ Just run the following code in the terminal:
 
 
     cd ~/Downloads ;
-    rm -rf simplesh-master/;
-    wget -qO- -O simplesh.zip https://github.com/rafaelstz/simplesh/archive/master.zip;
-    unzip simplesh.zip && rm simplesh.zip;
+    rm -rf simplesh-master/ ;
+    wget -qO- -O simplesh.zip https://github.com/rafaelstz/simplesh/archive/master.zip ;
+    unzip simplesh.zip && rm simplesh.zip ;
     cd simplesh-master/ ; clear;
-    bash simple.sh;
+    bash simple.sh ;
+    clear ;
 
 ----------
 **<i class="icon-upload"></i> How can you help?**
