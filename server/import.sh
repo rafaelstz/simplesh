@@ -12,3 +12,6 @@
 
 # Import Nginx
 . server/nginx.sh
+
+# Import Ajenti
+. server/ajenti.sh
