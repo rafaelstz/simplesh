@@ -21,6 +21,6 @@ phpstorm.sh(){
     sudo apt-get update;
     sudo apt-get install -y oracle-java8-installer;
     cd ./*/bin;
-    chmod +x phpstorm.sh;
+    sudo chmod +x phpstorm.sh;
     ./phpstorm.sh;
 }
