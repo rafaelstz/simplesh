@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 #
 # Developed by Rafael Corrêa Gomes
 # Contact rafaelcgstz@gmail.com
@@ -15,3 +15,6 @@
 
 # Import Vim
 . system/vim.sh
+
+# Import PhoneGap
+. system/phonegap.sh
