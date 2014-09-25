@@ -18,3 +18,6 @@
 
 # Import PhoneGap
 . system/phonegap.sh
+
+# Import Indicator
+. system/indicator.sh
