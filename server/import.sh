@@ -15,3 +15,6 @@
 
 # Import Ajenti
 . server/ajenti.sh
+
+# Import N98 Magerun
+. server/n98.sh
