@@ -27,3 +27,6 @@
 
 # Import Chrome
 . desktop/chrome.sh
+
+# Import Chrome
+. desktop/gimp.sh
