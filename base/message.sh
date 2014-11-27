@@ -1,4 +1,3 @@
-
 #!/bin/bash
 #
 # Developed by Rafael Corrêa Gomes
