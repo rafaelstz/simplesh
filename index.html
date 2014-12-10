@@ -1,103 +1,80 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>Bootstrap 101 Template</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="assets/css/style.css"/>
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+<div class="wrapper">
+	<div class="container">
+		<div class="row">
+			<header class="col-md-10 col-md-offset-1"><img class="logo img-responsive"
+			                                               src="assets/img/logo-simplesh.png"
+			                                               alt="SimpleSH para Ubuntu"/></header>
+		</div>
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1 block1">
+				<div class="row">
+					<div class="col-md-12">
+						<h4>Escolha e instale seus programas favoritos rapidamente</h4>
+						<code class="terminal">cd ~/Downloads;<br>
+							rm -rf simplesh-master/;<br>
+							wget -qO- -O simplesh.zip https://github.com/rafaelstz/simplesh/archive/master.zip;
+							unzip simplesh.zip && rm simplesh.zip;<br>
+							cd simplesh-master/;<br>
+							clear; bash simple.sh;</code>
+					</div>
+				</div>
+				<br/><br/>
 
-    <link rel="stylesheet" href="components/roboto-fontface/roboto-fontface.css"/>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+				<div class="row">
+					<div class="col-md-12">
+						<h4>Alguns dos programas inclusos</h4>
 
-      <script src="components/jquery/dist/jquery.min.js"></script>
-    <script src="javascripts/main.js"></script>
+						<div class="row">
+							<div class="col-xs-2 col-xs-offset-1">
+								<img class="img-responsive" src="assets/img/graphic_build_bot.png" alt="PhoneGap"/>
+							</div>
+							<div class="col-xs-2">
+								<img class="img-responsive" src="assets/img/webide-150x150.png" alt="PhpStorm"/>
+							</div>
+							<div class="col-xs-2">
+								<img class="img-responsive" src="assets/img/logo-valentines.png" alt="PopCornTime"/>
+							</div>
+							<div class="col-xs-2">
+								<img class="img-responsive" src="assets/img/unnamed.png" alt="Spotify"/>
+							</div>
+							<div class="col-xs-2">
+								<img class="img-responsive" src="assets/img/Sublime_Text_Logo.png" alt="SublimeText"/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br/>
+		<address class="text-success text-center">Todos os direitos reservados.</address>
+	</div>
 
-    <title>Simple SH Tools</title>
-  </head>
+</div>
 
-  <body>
-    <header>
-        <section class="wrapp">
-            <a href="https://github.com/rafaelstz/simplesh" class="git" target="_blank">.view on GitHub</a>
-            <h1>./Simple SH Tools</h1>
-            <p class="info">Install your favorite applications through a command via Ubuntu terminal.</p>
-        </section>
-    </header>
-
-    <section id="welcome" class="welcome">
-        <article class="wrapp">
-            <h1>Welcome to Simple SH Tool!</h1>
-            <p>Hello, see how easy it is to install any application through <strong>Simple SH</strong>, with one command you perform the installation of your application dependencies.</p>
-        </article>
-    </section>
-
-    <section id="run" class="run">
-        <article class="wrapp">
-            <h1>1. Run this code</h1>
-            <pre>
-<code>
-<div><span></span><span></span><span></span></div>
-cd ~/Downloads;
-rm -rf simplesh-master/;
-wget -qO- -O simplesh.zip https://github.com/rafaelstz/simplesh/archive/master.zip;
-unzip simplesh.zip && rm simplesh.zip;
-cd simplesh-master/;
-clear; bash simple.sh;</code></pre>
-        </article>
-    </section>
-
-    <section id="choose" class="choose">
-        <article class="wrapp">
-            <h1>2. Choose an option</h1>
-             <pre>
-<code>
-<div><span></span><span></span><span></span></div>
-atom.sh
-brackets.sh
-googledrive.sh
-spotify.sh
-sublime.sh
-lamp server.sh
-mais...</code></pre>
-        </article>
-    </section>
-
-    <section id="contribute" class="contribute">
-        <article class="wrapp">
-            <h1>3. Contribute on GitHub</h1>
-
-            <section class="release">
-                <h2>How can you help?</h2>
-                <ul>
-                    <li>Add new commands</li>
-                    <li>Send me some proposals if you miss anything</li>
-                    <li>Create issues if you find a bug or missing a feature</li>
-                </ul>
-            </section>
-        </article>
-    </section>
-
-    <section id="credits" class="credits">
-        <article class="wrapp">
-            <h2>Developed by: Rafael Corrêa Gomes</h2>
-            <a href="mailto:rafaelstz@gmail.com">rafaelstz@gmail.com</a>
-        </article>
-    </section>
-
-    <footer>
-        <p>Made with by: <a href="http://whenrique.com.br/" target="_blank">Wes</a></p>
-    </footer>
-
-    <script type="text/javascript">
-    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <script type="text/javascript">
-    try {
-      var pageTracker = _gat._getTracker("UA-23597506-7");
-    pageTracker._trackPageview();
-    } catch(err) {}
-    </script>
-
-  </body>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</body>
 </html>
