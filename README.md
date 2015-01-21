@@ -1,5 +1,5 @@
-Welcome to Simple SH Tools!
-=====================
+SimpleSH tools (for Ubuntu)
+===========================
 
 
 Hello, see how easy it is to install any application through **Simple SH**, with one command you perform the installation of your application dependencies.
