@@ -5,28 +5,30 @@
 #
 
 # Import Spotify
-. desktop/spotify.sh
+.desktop/spotify.sh
 
 # Import SublimeText
-. desktop/sublimetext.sh
+.desktop/sublimetext.sh
 
 # Import Brackets
-. desktop/brackets.sh
+.desktop/brackets.sh
 
 # Import Atom
-. desktop/atom.sh
+.desktop/atom.sh
 
 # Import PopCorn
-. desktop/popcorn.sh
+.desktop/popcorn.sh
 
 # Import Google Drive
-. desktop/googledrive.sh
+.desktop/googledrive.sh
 
 # Import PhpStorm
-. desktop/phpstorm.sh
+.desktop/phpstorm.sh
 
 # Import Chrome
-. desktop/chrome.sh
+.desktop/chrome.sh
 
 # Import Chrome
-. desktop/gimp.sh
+.desktop/gimp.sh
+
+.desktop/firefoxdev.sh
