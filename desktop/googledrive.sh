@@ -5,10 +5,7 @@
 #
 
 googledrive.sh(){
-	sudo add-apt-repository ppa:nilarimogard/webupd8;
-	sudo apt-get update;
-	sudo apt-get install grive-tools;
-	mkdir -p ~/GoogleDrive;
-	cd ~/GoogleDrive;
-	grive -a;
+	sudo add-apt-repository -y ppa:thefanclub/grive-tools &&
+	sudo apt-get update &&
+	sudo apt-get install -y grive-tools
 }
