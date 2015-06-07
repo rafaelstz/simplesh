@@ -36,3 +36,6 @@
 
 # Import digiKam Image editor
 . desktop/digikam.sh
+
+# Import Musique
+. desktop/musique.sh
