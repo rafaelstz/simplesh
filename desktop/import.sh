@@ -33,3 +33,9 @@
 
 # Import Firefox Developer Edition
 . desktop/firefoxdev.sh
+
+# Import digiKam Image editor
+. desktop/digikam.sh
+
+# Import Musique
+. desktop/musique.sh
