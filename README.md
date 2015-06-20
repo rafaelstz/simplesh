@@ -1,4 +1,4 @@
-SimpleSH tools (for Ubuntu)
+SimpleSH CLI Tools (for Ubuntu)
 ===========================
 
 
