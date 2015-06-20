@@ -1,4 +1,4 @@
-SimpleSH CLI Tools (for Ubuntu)
+SimpleSH CLI Tools [![Build Status](https://travis-ci.org/rafaelstz/simplesh.svg?branch=master)](https://travis-ci.org/rafaelstz/simplesh) [![Codacy Badge](https://www.codacy.com/project/badge/2576eb59f697493096e9195b4bc22d19)](https://www.codacy.com/app/rafaelcgstz/simplesh) [![Github Releases](https://img.shields.io/github/downloads/atom/atom/latest/total.svg)]() [![GitHub issues](https://img.shields.io/github/issues/badges/shields.svg)](https://github.com/rafaelstz/simplesh/issues)
 ===========================
 
 
