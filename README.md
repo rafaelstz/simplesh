@@ -34,4 +34,4 @@ bash simple.sh
 
 <i class="icon-share"></i> Contact rafaelcgstz@gmail.com
 
-copyright © 2014 SimpleSH. All rights reserved.
+MIT © [![Rafael Corrêa Gomes] (https://github.com/rafaelstz)]
