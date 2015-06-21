@@ -4,10 +4,7 @@ SimpleSH CLI Tools ![Sytem Ubuntu](https://img.shields.io/badge/System-Ubuntu-or
 
 Hello, see how easy it is to install any application through **Simple SH**, with one command you perform the installation of your application dependencies.
 
-
-----------
- <i class="icon-cog"></i>**Run**
-------------
+## Run
 
 Just run the following code in the terminal:
 
@@ -20,18 +17,14 @@ cd simplesh-master/
 clear;
 bash simple.sh
 ```
-----------
-**<i class="icon-upload"></i> How can you help?**
-------------
+## How can you help?
+
 
  - Add new commands
  - Send me some proposals if you miss anything
  - Create issues if you find a bug or missing a feature.
 
 
-----------
-<i class="icon-pencil"></i> Developed by Rafael Corrêa Gomes
+## License
 
-<i class="icon-share"></i> Contact rafaelcgstz@gmail.com
-
-MIT © [![Rafael Corrêa Gomes] (https://github.com/rafaelstz)]
+MIT © [Rafael Corrêa Gomes](https://github.com/rafaelstz)
