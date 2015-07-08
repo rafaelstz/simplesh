@@ -25,6 +25,9 @@
 # Import PhpStorm
 . desktop/phpstorm.sh
 
+# Import PhpStorm 9 
+. desktop/phpstorm-9.sh
+
 # Import Chrome
 . desktop/chrome.sh
 
