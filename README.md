@@ -1,4 +1,4 @@
-#SimpleSH CLI Tools ![Sytem Ubuntu](https://img.shields.io/badge/System-Ubuntu-orange.svg)  [![Build Status](https://travis-ci.org/rafaelstz/simplesh.svg?branch=master)](https://travis-ci.org/rafaelstz/simplesh)
+# SimpleSH CLI Tools ![Sytem Ubuntu](https://img.shields.io/badge/System-Ubuntu-orange.svg)  [![Build Status](https://travis-ci.org/rafaelstz/simplesh.svg?branch=master)](https://travis-ci.org/rafaelstz/simplesh)
 
 Hello, see how easy it is to install any application through **Simple SH**, with one command you perform the installation of your application dependencies.
 
