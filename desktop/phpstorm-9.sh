@@ -9,8 +9,8 @@ phpstorm-9.sh(){
     cd ~/phpstorm;
     sudo rm -rf *.tar.gz ;
     clear;
-    sudo wget http://download.jetbrains.com/webide/PhpStorm-9.0.tar.gz ;
-    sudo tar -zxvf PhpStorm-9.0.tar.gz ;
+    sudo wget http://download.jetbrains.com/webide/PhpStorm-9.0.2.tar.gz ;
+    sudo tar -zxvf PhpStorm-9.0.2.tar.gz ;
     sudo chmod -Rv 777 ~/phpstorm ;
     sudo apt-get purge openjdk* ;
     sudo apt-get install software-properties-common;
