@@ -61,7 +61,7 @@ ${Purple}########## Desktop
 ${txtrst} "
 for file in $(ls ./desktop)
 do
-    if [ $file != import.sh ]
+    if [ $file != import.sh ] && [ $file != files ]
     then
         echo $file
     fi
