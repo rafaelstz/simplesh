@@ -39,3 +39,9 @@
 
 # Import Musique
 . desktop/musique.sh
+
+# Import PyCharm Community
+. desktop/pycharm.sh
+
+# Import PyCharm Professional
+. desktop/pycharm-pro.sh
