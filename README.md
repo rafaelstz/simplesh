@@ -25,4 +25,4 @@ bash simple.sh
 
 ## License
 
-MIT © 2015 [Rafael Corrêa Gomes](https://github.com/rafaelstz) and [ contributors](https://github.com/rafaelstz/simplesh/graphs/contributors)
+MIT © 2016 [Rafael Corrêa Gomes](https://github.com/rafaelstz) and [ contributors](https://github.com/rafaelstz/simplesh/graphs/contributors)
