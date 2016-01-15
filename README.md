@@ -2,7 +2,7 @@
 
 Hello, see how easy it is to install any application through **Simple SH**, with one command you perform the installation of your application dependencies.
 
-## Run
+## Run :thumbsup:
 
 Just run the following code in the terminal:
 
