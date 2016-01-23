@@ -39,3 +39,6 @@
 
 # Import Musique
 . desktop/musique.sh
+
+# Import Composer
+. desktop/composer.sh
