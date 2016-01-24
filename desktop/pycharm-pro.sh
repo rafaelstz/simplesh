@@ -9,8 +9,8 @@ pycharm-pro.sh(){
     cd ~/pycharm;
     sudo rm -rf *.tar.gz ;
     clear;
-    sudo wget http://download.jetbrains.com/python/pycharm-professional-4.5.4.tar.gz;
-    sudo tar -zxvf pycharm-professional-4.5.4.tar.gz;
+    sudo wget https://download.jetbrains.com/python/pycharm-professional-5.0.3.tar.gz;
+    sudo tar -zxvf pycharm-professional-5.0.3.tar.gz;
     sudo chmod -Rv 777 ~/pycharm;
     sudo apt-get purge openjdk*;
     sudo apt-get install software-properties-common;

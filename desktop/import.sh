@@ -48,3 +48,6 @@
 
 # Import PyCharm Professional
 . desktop/pycharm-pro.sh
+
+# Import PyCharm Professional
+. desktop/rubymine.sh
