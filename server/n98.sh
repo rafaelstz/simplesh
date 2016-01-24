@@ -16,5 +16,5 @@ n98.sh(){
   sudo cp ./n98-magerun.phar /usr/local/bin/;
   clear;
   ./n98-magerun.phar list;
-  echo "\nRestart system to apply!"
+  echo "\nRestart the system to apply!"
 }

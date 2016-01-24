@@ -4,14 +4,14 @@
 # Contact rafaelcgstz@gmail.com
 #
 
-pycharm.sh(){
-    sudo mkdir ~/pycharm;
-    cd ~/pycharm;
+rubymine.sh(){
+    sudo mkdir ~/rubymine;
+    cd ~/rubymine;
     sudo rm -rf *.tar.gz;
     clear;
-    sudo wget https://download.jetbrains.com/python/pycharm-community-5.0.3.tar.gz;
-    sudo tar -zxvf pycharm-community-5.0.3.tar.gz;
-    sudo chmod -Rv 777 ~/pycharm;
+    sudo wget https://download.jetbrains.com/ruby/RubyMine-8.0.3.tar.gz;
+    sudo tar -zxvf RubyMine-8.0.3.tar.gz;
+    sudo chmod -Rv 777 ~/rubymine;
     sudo apt-get purge openjdk*;
     sudo apt-get install software-properties-common;
     clear;
@@ -22,6 +22,6 @@ pycharm.sh(){
     sudo apt-get install -y oracle-java8-installer;
     sudo apt-get install oracle-java8-set-default;
     cd ./*/bin;
-    sudo chmod +x pycharm.sh;
-    ./pycharm.sh;
+    sudo chmod +x rubymine.sh;
+    ./rubymine.sh;
 }
