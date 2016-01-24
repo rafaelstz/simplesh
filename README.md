@@ -55,8 +55,8 @@ See the complete list of commands and applications what is includes inside of th
 
 ## How can you help?
 
- - Add new commands
- - Send me some proposals if you miss anything
+ - Add new commands.
+ - Send me some proposals if you miss anything.
  - Create issues if you find a bug or missing a feature.
 
 
