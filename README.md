@@ -19,7 +19,7 @@ bash simple.sh
 
 See the complete list of commands and applications what is includes inside of the simple.sh.
 
-# System
+## System
 *  `indicator.sh` - Install the system load indicator.
 * `ohmyzsh.sh` - Install the [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh).
 * `phonegap.sh` - Install  the [Phonegap](http://phonegap.com/) easily.
@@ -27,14 +27,14 @@ See the complete list of commands and applications what is includes inside of th
 * `upgrade.sh` - Make your system updated.
 * `vim.sh`- Install the vim editor.
 
-# Server Side
+## Server Side
 * `ajenti.sh` - Install the  [Ajenti](http://ajenti.org/) admin panel.
 * `lamp.sh` - Install the LAMP stack (Linux + Apache + MySQL + PHP).
 * `n98.sh` - Install the [n98 magerun ](https://github.com/netz98/n98-magerun) cli tools for Magento Developers.
 * `nginx.sh` - Install the LEMP stack (Linux, Nginx, MySQL + PHP).
 * `wpcli.sh`- Install the [WP CLI](http://wp-cli.org/) - command line interface for WordPress.
 
-# Desktop 
+## Desktop 
 * `atom.sh` - Install the [Atom](http://phonegap.com/) editor.
 * `brackets.sh` - Install the [Brackets](http://brackets.io/) Brackets editor.
 * `chrome.sh` - Install the [Google Chrome](https://www.google.com.br/chrome/browser/desktop/) web browser.
