@@ -47,9 +47,9 @@ See the complete list of commands and applications what is includes inside of th
 * `phpstorm-9.sh` - Install [PHPStorm](https://goo.gl/suHdH5 ) version 9.x.x.
 * `phpstorm.sh` - Install  [PHPStorm](https://goo.gl/suHdH5) version 8.x.x.
 * `pycharm-pro.sh` - Install the [PyCharm Professional](https://www.jetbrains.com/pycharm/) edition.
-* `pycharm.sh` - Install the [PyCharm Community](https://www.jetbrains.com/pycharm/) eition.
-* `rubymine.sh` - Install the [RubyMine](https://www.jetbrains.com/ruby/) eition.
-* `spotify.sh` - Install the [Spotify](https://www.spotify.com) .
+* `pycharm.sh` - Install the [PyCharm Community](https://www.jetbrains.com/pycharm/) edition.
+* `rubymine.sh` - Install the [RubyMine](https://www.jetbrains.com/ruby/).
+* `spotify.sh` - Install the [Spotify](https://www.spotify.com).
 * `sublimetext.sh` - Install the [ Sublime Text 3 ](http://www.sublimetext.com/3/) editor.
 
 
