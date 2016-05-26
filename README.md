@@ -1,6 +1,4 @@
-# SimpleSH CLI Tools ![Sytem Ubuntu](https://img.shields.io/badge/System-Ubuntu-orange.svg)  [![Build Status](https://travis-ci.org/rafaelstz/simplesh.svg?branch=master)](https://travis-ci.org/rafaelstz/simplesh)
-
-[![Join the chat at https://gitter.im/rafaelstz/simplesh](https://badges.gitter.im/rafaelstz/simplesh.svg)](https://gitter.im/rafaelstz/simplesh?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# SimpleSH CLI Tools ![Sytem Ubuntu](https://img.shields.io/badge/System-Ubuntu-orange.svg)  [![Build Status](https://travis-ci.org/rafaelstz/simplesh.svg?branch=master)](https://travis-ci.org/rafaelstz/simplesh) [![Join the chat at https://gitter.im/rafaelstz/simplesh](https://badges.gitter.im/rafaelstz/simplesh.svg)](https://gitter.im/rafaelstz/simplesh?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Hello, see how easy it is to install any application through **Simple SH**, with one command you perform the installation of your application dependencies.
 
