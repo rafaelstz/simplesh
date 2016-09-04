@@ -51,3 +51,6 @@
 
 # Import PyCharm Professional
 . desktop/rubymine.sh
+
+# Import Composer
+. desktop/composer.sh
