@@ -42,5 +42,5 @@ phonegap.sh(){
     sudo apt-get install lib32z1 lib32z1-dev;
     clear;
     echo -e "\nNode Version ";node -v; echo -e "\nPhoneGap Version"; phonegap -v; echo -e "\nCordova Version"; cordova -v;
-    echo -e "\n\nFaça o download do Android SDK e coloco na pasta raiz de seu usuário\nAbra o arquivo ~/.bashrc\nNo fim do arquivo, coloque esse código, lembrando de passar o caminho correto\n\nexport PATH=\${PATH}:\$HOME/android-sdk/sdk/platform-tools\nexport PATH=\${PATH}:\$HOME/android-sdk/sdk/tools\n\nLogo em seguida adicione a plataforma\n\nphonegap platform add android\n";
+    echo -e "\n\nFaça o download do Android SDK e coloque na pasta raiz de seu usuário\nAbra o arquivo ~/.bashrc\nNo fim do arquivo, cole teste código, lembrando de passar o caminho correto\n\nexport PATH=\${PATH}:\$HOME/android-sdk/sdk/platform-tools\nexport PATH=\${PATH}:\$HOME/android-sdk/sdk/tools\n\nLogo em seguida adicione a plataforma\n\nphonegap platform add android\n";
 }
