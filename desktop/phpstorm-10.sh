@@ -9,7 +9,7 @@ phpstorm-10.sh(){
     cd ~/phpstorm;
     sudo rm -rf *.tar.gz ;
     clear;
-    sudo wget https://download.jetbrains.com/webide/PhpStorm-10.0.3.tar.gz;
+    sudo wget https://download.jetbrains.com/webide/PhpStorm-2016.2.1.tar.gz;
     sudo tar -zxvf PhpStorm-10.0.3.tar.gz;
     sudo chmod -Rv 777 ~/phpstorm ;
     sudo apt-get purge openjdk* ;
