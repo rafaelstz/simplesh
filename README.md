@@ -11,7 +11,7 @@ cd ~/Downloads
 rm -rf simplesh-master/
 wget -qO- -O simplesh.zip https://github.com/rafaelstz/simplesh/archive/master.zip
 unzip simplesh.zip && rm simplesh.zip
-cd simplesh-master/ 
+cd simplesh-master/
 clear;
 bash simple.sh
 ```
@@ -34,11 +34,12 @@ See the complete list of commands and applications what is includes inside of th
 * `nginx.sh` - Install the LEMP stack (Linux, Nginx, MySQL + PHP).
 * `wpcli.sh`- Install the [WP CLI](http://wp-cli.org/) - command line interface for WordPress.
 
-## Desktop 
+## Desktop
 * `atom.sh` - Install the [Atom](http://phonegap.com/) editor.
 * `brackets.sh` - Install the [Brackets](http://brackets.io/) Brackets editor.
 * `chrome.sh` - Install the [Google Chrome](https://www.google.com.br/chrome/browser/desktop/) web browser.
 * `digikam.sh` - Install the [Gigikam](https://www.digikam.org/) photo manager.
+* `dropbox.sh` - Install the [Dropbox](https://www.dropbox.com/).
 * `firefoxdev.sh` - Install the [Firefox Developer Edition](https://www.mozilla.org/pt-BR/firefox/developer/).
 * `gimp.sh`  - Install the [Gimp](https://www.gimp.org/).
 * `googledrive.sh` - Install the [Google Drive](https://www.google.com/intl/pt-BR/drive/download/).
