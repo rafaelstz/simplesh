@@ -1,26 +1,23 @@
 # SimpleSH CLI Tools ![Sytem Ubuntu](https://img.shields.io/badge/System-Ubuntu-orange.svg)  [![Build Status](https://travis-ci.org/rafaelstz/simplesh.svg?branch=master)](https://travis-ci.org/rafaelstz/simplesh) [![Join the chat at https://gitter.im/rafaelstz/simplesh](https://badges.gitter.im/rafaelstz/simplesh.svg)](https://gitter.im/rafaelstz/simplesh?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)  [![Releases](https://img.shields.io/github/release/rafaelstz/simplesh.svg)](https://github.com/rafaelstz/simplesh/releases)
 
-Hello, see how easy it is to install any application through **Simple SH**, with one command you perform the installation of your application dependencies.
+Hello, see how easy it is to install any application through **SimpleSH**, with one command you perform the installation of your application dependencies.
 
 ## Running :thumbsup:
 
 Just run the following code in the terminal:
 
 ```shell
-cd ~/Downloads
-rm -rf simplesh-master/
 wget -qO- -O simplesh.zip https://github.com/rafaelstz/simplesh/archive/master.zip
 unzip simplesh.zip && rm simplesh.zip
 cd simplesh-master/ 
-clear;
 bash simple.sh
 ```
 ## List of contents
 
-See the complete list of commands and applications what is includes inside of the simple.sh.
+See the complete list of commands and applications what is includes inside of SimpleSH.
 
 ## System
-*  `indicator.sh` - Install the system load indicator.
+* `indicator.sh` - Install the system load indicator.
 * `ohmyzsh.sh` - Install the [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh).
 * `phonegap.sh` - Install  the [Phonegap](http://phonegap.com/) easily.
 * `update.sh` - Keep the list of sources updated.
@@ -38,7 +35,9 @@ See the complete list of commands and applications what is includes inside of th
 * `atom.sh` - Install the [Atom](http://phonegap.com/) editor.
 * `brackets.sh` - Install the [Brackets](http://brackets.io/) Brackets editor.
 * `chrome.sh` - Install the [Google Chrome](https://www.google.com.br/chrome/browser/desktop/) web browser.
-* `digikam.sh` - Install the [Gigikam](https://www.digikam.org/) photo manager.
+* `composer.sh` - Install the [Composer](https://getcomposer.org/) dependency manager for PHP.
+* `digikam.sh` - Install the [Digikam](https://www.digikam.org/) photo manager.
+* `dropbox.sh` - Install the [Dropbox](https://www.dropbox.com/) file synchronization utility.
 * `firefoxdev.sh` - Install the [Firefox Developer Edition](https://www.mozilla.org/pt-BR/firefox/developer/).
 * `gimp.sh`  - Install the [Gimp](https://www.gimp.org/).
 * `googledrive.sh` - Install the [Google Drive](https://www.google.com/intl/pt-BR/drive/download/).
