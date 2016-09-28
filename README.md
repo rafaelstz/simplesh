@@ -1,6 +1,6 @@
 # SimpleSH CLI Tools ![Sytem Ubuntu](https://img.shields.io/badge/System-Ubuntu-orange.svg)  [![Build Status](https://travis-ci.org/rafaelstz/simplesh.svg?branch=master)](https://travis-ci.org/rafaelstz/simplesh) [![Join the chat at https://gitter.im/rafaelstz/simplesh](https://badges.gitter.im/rafaelstz/simplesh.svg)](https://gitter.im/rafaelstz/simplesh?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)  [![Releases](https://img.shields.io/github/release/rafaelstz/simplesh.svg)](https://github.com/rafaelstz/simplesh/releases)
 
-Hello, see how easy it is to install any application through **Simple SH**, with one command you perform the installation of your application dependencies.
+Hello, see how easy it is to install any application through **Simple SH**. With one command, you can install all of your application dependencies.
 
 ## Running :thumbsup:
 
@@ -11,7 +11,7 @@ cd ~/Downloads
 rm -rf simplesh-master/
 wget -qO- -O simplesh.zip https://github.com/rafaelstz/simplesh/archive/master.zip
 unzip simplesh.zip && rm simplesh.zip
-cd simplesh-master/ 
+cd simplesh-master/
 clear;
 bash simple.sh
 ```
@@ -34,7 +34,7 @@ See the complete list of commands and applications what is includes inside of th
 * `nginx.sh` - Install the LEMP stack (Linux, Nginx, MySQL + PHP).
 * `wpcli.sh`- Install the [WP CLI](http://wp-cli.org/) - command line interface for WordPress.
 
-## Desktop 
+## Desktop
 * `atom.sh` - Install the [Atom](http://phonegap.com/) editor.
 * `brackets.sh` - Install the [Brackets](http://brackets.io/) Brackets editor.
 * `chrome.sh` - Install the [Google Chrome](https://www.google.com.br/chrome/browser/desktop/) web browser.
