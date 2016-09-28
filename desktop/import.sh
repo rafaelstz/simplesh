@@ -54,3 +54,7 @@
 
 # Import Composer
 . desktop/composer.sh
+
+# Import Dropbox
+. desktop/dropbox.sh
+
