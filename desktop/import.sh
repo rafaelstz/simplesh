@@ -58,3 +58,5 @@
 # Import Dropbox
 . desktop/dropbox.sh
 
+#Import Terminator
+. desktop/termiantor.sh
