@@ -8,14 +8,8 @@ Just run the following code in the terminal:
 
 ```shell
 wget -qO- -O simplesh.zip https://github.com/rafaelstz/simplesh/archive/master.zip
-<<<<<<< HEAD
 unzip simplesh.zip && rm simplesh.zip /
 cd simplesh-master/ 
-=======
-unzip simplesh.zip && rm simplesh.zip
-cd simplesh-master/
-clear;
->>>>>>> 3f7beb495d65fc1cd796259b4398a1c19789150d
 bash simple.sh
 ```
 ## List of contents
