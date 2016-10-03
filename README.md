@@ -18,11 +18,11 @@ See the complete list of commands and applications what is includes inside of Si
 
 ## System
 * `indicator.sh` - Install the system load indicator.
-* `ohmyzsh.sh` - Install the [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh).
-* `phonegap.sh` - Install  the [Phonegap](http://phonegap.com/) easily.
+* `ohmyzsh.sh` - Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh).
+* `phonegap.sh` - Install [Phonegap](http://phonegap.com/) easily.
 * `update.sh` - Keep the list of sources updated.
 * `upgrade.sh` - Make your system updated.
-* `vim.sh`- Install the vim editor.
+* `vim.sh`- Install vim editor.
 
 ## Server Side
 * `ajenti.sh` - Install the  [Ajenti](http://ajenti.org/) admin panel.
@@ -39,16 +39,16 @@ See the complete list of commands and applications what is includes inside of Si
 * `digikam.sh` - Install the [Digikam](https://www.digikam.org/) photo manager.
 * `dropbox.sh` - Install the [Dropbox](https://www.dropbox.com/) file synchronization utility.
 * `firefoxdev.sh` - Install the [Firefox Developer Edition](https://www.mozilla.org/pt-BR/firefox/developer/).
-* `gimp.sh`  - Install the [Gimp](https://www.gimp.org/).
-* `googledrive.sh` - Install the [Google Drive](https://www.google.com/intl/pt-BR/drive/download/).
-* `musique.sh` - Install the [Musique Player](http://flavio.tordini.org/musique).
+* `gimp.sh`  - Install [Gimp](https://www.gimp.org/).
+* `googledrive.sh` - Install [Google Drive](https://www.google.com/intl/pt-BR/drive/download/).
+* `musique.sh` - Install [Musique Player](http://flavio.tordini.org/musique).
 * `phpstorm-10.sh`- Install [PHPStorm](http://phonegap.com/) version 10.x.x.
 * `phpstorm-9.sh` - Install [PHPStorm](https://goo.gl/suHdH5 ) version 9.x.x.
 * `phpstorm.sh` - Install  [PHPStorm](https://goo.gl/suHdH5) version 8.x.x.
 * `pycharm-pro.sh` - Install the [PyCharm Professional](https://www.jetbrains.com/pycharm/) edition.
 * `pycharm.sh` - Install the [PyCharm Community](https://www.jetbrains.com/pycharm/) edition.
-* `rubymine.sh` - Install the [RubyMine](https://www.jetbrains.com/ruby/).
-* `spotify.sh` - Install the [Spotify](https://www.spotify.com).
+* `rubymine.sh` - Install [RubyMine](https://www.jetbrains.com/ruby/).
+* `spotify.sh` - Install [Spotify](https://www.spotify.com).
 * `sublimetext.sh` - Install the [ Sublime Text 3 ](http://www.sublimetext.com/3/) editor.
 
 
