@@ -22,7 +22,7 @@ See the complete list of commands and applications what is includes inside of Si
 * `phonegap.sh` - Install [Phonegap](http://phonegap.com/) easily.
 * `update.sh` - Keep the list of sources updated.
 * `upgrade.sh` - Make your system updated.
-* `vim.sh`- Installvim editor.
+* `vim.sh`- Install vim editor.
 
 ## Server Side
 * `ajenti.sh` - Install the  [Ajenti](http://ajenti.org/) admin panel.
