@@ -26,8 +26,8 @@
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<div class="jumbotron text-center">
 					<h1>Simple SH</h1>
-					<p>Choose and install your favorite programs quickly.</p>
-					<p><a class="btn btn-success btn-lg">Learn more</a></p>
+					<p>Choose and install your favorite programs quickly <span class="text-success">in Ubuntu</span>.</p>
+					<p><a href="https://github.com/rafaelstz/simplesh" class="btn btn-success btn-lg">View source on Github</a></p>
 				</div>
 			</div>
 		</div>
@@ -38,12 +38,15 @@
 						<h4>How to install</h4>
 					</div>
 					<div class="panel-body">
-						<pre class="btn-success" id="install" data-toggle="tooltip" data-clipboard-target="#install-code"><code class="bash" id="install-code"># Download Simple SH from Github
+						<pre class="bg-success" id="install"><code class="bash" id="install-code"># Download Simple SH from Github
 wget -qO- -O simplesh.zip https://github.com/rafaelstz/simplesh/archive/master.zip
 unzip simplesh.zip && rm simplesh.zip /
 cd simplesh-master/ 
 # Run Simple SH
 bash simple.sh</code></pre>
+					</div>
+					<div class="panel-footer">
+						<a class="btn btn-success btn-sm" id="install-copy" href="javascript:copyToClipboard();" data-clipboard-target="#install-code">Copy to clipboard</a>
 					</div>
 				</div>
 			</div>
@@ -79,6 +82,9 @@ bash simple.sh</code></pre>
 							</div>
 						</div>
 					</div>
+					<div class="panel-footer">
+						<a target="_blank" href="https://github.com/rafaelstz/simplesh#list-of-contents">Check the complete list here</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -97,18 +103,23 @@ bash simple.sh</code></pre>
 <!-- clipboard.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.12/clipboard.min.js"></script>
 <script type="text/javascript">
-	var clipboard = new Clipboard('#install');
+	var clipboard = new Clipboard('#install-copy');
 	clipboard.on('success', function(e) {
-		$(".tooltip-inner").text('Copied!');
 		e.clearSelection();
 	});
 </script>
 <!-- other -->
 <script type="text/javascript">
+	var copyToClipboard = function() {
+		$('#install-copy').tooltip('show');
+		setTimeout(function(){$('#install-copy').tooltip('hide')}, 1500);
+	}
 	$(function () {
-		$('#install').tooltip({
-			title: 'Click to Copy!',
-			template:'<div class="tooltip" role="tooltip"><div class="lead tooltip-arrow"></div><div class="text-success lead tooltip-inner"></div></div>'
+		$('#install-copy').tooltip({
+			title: 'Copied!',
+			trigger: 'manual',
+			placement:'right auto',			
+			template:'<div class="tooltip" role="tooltip"><div class="tooltip-arrow"></div><div class="text-success tooltip-inner"></div></div>'
 		})
 })
 </script>
