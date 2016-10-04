@@ -9,6 +9,9 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/darkly/bootstrap.min.css">
+	<!-- highlight.js style -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/monokai-sublime.min.css">
+	<!-- custom style -->
 	<!-- <link rel="stylesheet" href="assets/css/style.css"/> -->
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -35,7 +38,12 @@
 						<h4>How to install</h4>
 					</div>
 					<div class="panel-body">
-						<pre><code>
+						<pre class="btn-success"><code class="bash">
+cd ~/Downloads;
+rm -rf simplesh-master/;
+wget -qO- -O simplesh.zip https://github.com/rafaelstz/simplesh/archive/master.zip; unzip simplesh.zip && rm simplesh.zip;
+cd simplesh-master/;
+clear; bash simple.sh;
 						</code></pre>
 					</div>
 				</div>
@@ -81,5 +89,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<!-- highlist.js-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
 </body>
 </html>
