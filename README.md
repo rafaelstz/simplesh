@@ -14,7 +14,7 @@ bash simple.sh
 ```
 ## List of contents
 
-Below you can see the complete list of commands and applications that are included in SimpleSH.
+Below is the complete list of commands and applications that are included in SimpleSH.
 
 ## System
 * `indicator.sh` - Install the system load indicator.
@@ -56,8 +56,8 @@ Below you can see the complete list of commands and applications that are includ
 ## How can you help?
 
  - Add new commands/installers.
- - Send me some proposals if you miss anything.
- - Create issues if you find a bug or missing a feature.
+ - Send me proposals if you think something is missing.
+ - Create issues if you find bugs or missing features.
 
 
 ## License
