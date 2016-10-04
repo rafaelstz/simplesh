@@ -38,7 +38,7 @@
 						<h4>How to install</h4>
 					</div>
 					<div class="panel-body">
-						<pre class="btn-success"><code class="bash" id="install">
+						<pre class="btn-success" id="install" data-toggle="tooltip" title="click to copy!"><code class="bash" id="install-code">
 # Download Simple SH from Github
 wget -qO- -O simplesh.zip https://github.com/rafaelstz/simplesh/archive/master.zip
 unzip simplesh.zip && rm simplesh.zip /
@@ -93,6 +93,13 @@ bash simple.sh
 <!-- highlist.js-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
+<script type="text/javascript">
+	$(function () {
+		$('#install').tooltip({
+			template:'<div class="tooltip" role="tooltip"><div class="lead tooltip-arrow"></div><div class="text-success lead tooltip-inner"></div></div>'
+		})
+})
+</script>
 
 </body>
 </html>
