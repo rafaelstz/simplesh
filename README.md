@@ -62,4 +62,4 @@ Below is the complete list of commands and applications that are included in Sim
 
 ## License
 
-MIT © 2016 [Rafael Corrêa Gomes](https://github.com/rafaelstz) and [ contributors](https://github.com/rafaelstz/simplesh/graphs/contributors)
+MIT © 2016 [Rafael Corrêa Gomes](https://github.com/rafaelstz) and [ contributors](https://github.com/rafaelstz/simplesh/graphs/contributors).
