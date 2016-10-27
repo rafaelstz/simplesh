@@ -8,7 +8,7 @@ Just run the following code in the terminal:
 
 ```shell
 wget -qO- -O simplesh.zip https://github.com/rafaelstz/simplesh/archive/master.zip
-unzip simplesh.zip && rm simplesh.zip /
+unzip simplesh.zip && rm simplesh.zip
 cd simplesh-master/ 
 bash simple.sh
 ```
