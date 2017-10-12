@@ -6,12 +6,24 @@ Hello. Welcome to **SimpleSH**. With SimpleSH you can perform the installation o
 
 Just run the following code in the terminal:
 
+# wget installation
+
 ```shell
 wget -qO- -O simplesh.zip https://github.com/rafaelstz/simplesh/archive/master.zip
 unzip simplesh.zip && rm simplesh.zip
 cd simplesh-master/ 
 bash simple.sh
 ```
+
+# curl installation
+
+```shell
+curl -L https://github.com/rafaelstz/simplesh/archive/master.zip -o simplesh.zip
+unzip simplesh.zip && rm simplesh.zip
+cd simplesh-master/ 
+bash simple.sh
+```
+
 ## List of contents
 
 Below is the complete list of commands and applications that are included in SimpleSH.
