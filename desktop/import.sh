@@ -60,3 +60,6 @@
 
 #Import Terminator
 . desktop/termiantor.sh
+
+# Import Docker
+. desktop/docker.sh
