@@ -11,7 +11,7 @@ Just run the following code in the terminal:
 ```shell
 wget -qO- -O simplesh.zip https://github.com/rafaelstz/simplesh/archive/master.zip
 unzip simplesh.zip && rm simplesh.zip
-cd simplesh-master/ 
+cd simplesh-master/
 bash simple.sh
 ```
 
@@ -20,7 +20,7 @@ bash simple.sh
 ```shell
 curl -L https://github.com/rafaelstz/simplesh/archive/master.zip -o simplesh.zip
 unzip simplesh.zip && rm simplesh.zip
-cd simplesh-master/ 
+cd simplesh-master/
 bash simple.sh
 ```
 
@@ -55,6 +55,7 @@ Below is the complete list of commands and applications that are included in Sim
 * `gimp.sh`  - Install [Gimp](https://www.gimp.org/).
 * `googledrive.sh` - Install [Google Drive](https://www.google.com/intl/pt-BR/drive/download/).
 * `musique.sh` - Install [Musique Player](http://flavio.tordini.org/musique).
+* `nodejs.sh` - Install [Node.js](https://nodejs.org/en/), the JavaScript runtime built on Chrome's V8 JavaScript engine.
 * `phpstorm-10.sh`- Install [PHPStorm](http://phonegap.com/) version 10.x.x.
 * `phpstorm-9.sh` - Install [PHPStorm](https://goo.gl/suHdH5 ) version 9.x.x.
 * `phpstorm.sh` - Install  [PHPStorm](https://goo.gl/suHdH5) version 8.x.x.
