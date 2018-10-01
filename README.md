@@ -11,7 +11,7 @@ Just run the following code in the terminal:
 ```shell
 wget -qO- -O simplesh.zip https://github.com/rafaelstz/simplesh/archive/master.zip
 unzip simplesh.zip && rm simplesh.zip
-cd simplesh-master/ 
+cd simplesh-master/
 bash simple.sh
 ```
 
@@ -20,7 +20,7 @@ bash simple.sh
 ```shell
 curl -L https://github.com/rafaelstz/simplesh/archive/master.zip -o simplesh.zip
 unzip simplesh.zip && rm simplesh.zip
-cd simplesh-master/ 
+cd simplesh-master/
 bash simple.sh
 ```
 
@@ -64,6 +64,7 @@ Below is the complete list of commands and applications that are included in Sim
 * `spotify.sh` - Install [Spotify](https://www.spotify.com).
 * `sublimetext.sh` - Install the [Sublime Text 3](http://www.sublimetext.com/3/) editor.
 * `terminator.sh` - Install [Terminator](https://code.google.com/archive/p/jessies/wikis/Terminator.wiki), a terminal emulator.
+* `yarn` - Install [Yarn](https://yarnpkg.com/en/), fast, reliable, and secure dependency management.
 
 ## How can you help?
 

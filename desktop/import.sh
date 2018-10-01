@@ -66,3 +66,6 @@
 
 # Import Docker
 . desktop/docker.sh
+
+# Import Yarn
+. desktop/yarn.sh
