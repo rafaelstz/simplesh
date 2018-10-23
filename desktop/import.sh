@@ -13,6 +13,9 @@
 # Import Brackets
 . desktop/brackets.sh
 
+# Import Brave
+. desktop/brave.sh
+
 # Import Atom
 . desktop/atom.sh
 
