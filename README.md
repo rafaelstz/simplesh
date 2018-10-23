@@ -11,7 +11,7 @@ Just run the following code in the terminal:
 ```shell
 wget -qO- -O simplesh.zip https://github.com/rafaelstz/simplesh/archive/master.zip
 unzip simplesh.zip && rm simplesh.zip
-cd simplesh-master/ 
+cd simplesh-master/
 bash simple.sh
 ```
 
@@ -20,7 +20,7 @@ bash simple.sh
 ```shell
 curl -L https://github.com/rafaelstz/simplesh/archive/master.zip -o simplesh.zip
 unzip simplesh.zip && rm simplesh.zip
-cd simplesh-master/ 
+cd simplesh-master/
 bash simple.sh
 ```
 
@@ -48,6 +48,7 @@ Below is the complete list of commands and applications that are included in Sim
 * `atom.sh` - Install the [Atom](http://phonegap.com/) editor.
 * `brackets.sh` - Install the [Brackets editor](http://brackets.io/).
 * `chrome.sh` - Install the [Chrome](https://www.google.com.br/chrome/browser/desktop/) web browser.
+* `chromium.sh` - Install the [Chromium](https://www.chromium.org/Home/) open-source web browser.
 * `composer.sh` - Install [Composer](https://getcomposer.org/), the dependency manager for PHP.
 * `digikam.sh` - Install the [Digikam](https://www.digikam.org/) photo manager.
 * `dropbox.sh` - Install [Dropbox](https://www.dropbox.com/), the file synchronization utility.
