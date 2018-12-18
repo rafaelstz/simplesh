@@ -47,6 +47,7 @@ Below is the complete list of commands and applications that are included in Sim
 ## Desktop
 * `atom.sh` - Install the [Atom](https://atom.io/) editor.
 * `brackets.sh` - Install the [Brackets editor](http://brackets.io/).
+* `brave.sh` - Installs [Brave](http://brackets.io/), the secure, fast and private web browser with AdBlocker.
 * `chrome.sh` - Install the [Chrome](https://www.google.com.br/chrome/browser/desktop/) web browser.
 * `composer.sh` - Install [Composer](https://getcomposer.org/), the dependency manager for PHP.
 * `digikam.sh` - Install the [Digikam](https://www.digikam.org/) photo manager.
