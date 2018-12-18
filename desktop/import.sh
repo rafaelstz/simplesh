@@ -43,6 +43,9 @@
 # Import Musique
 . desktop/musique.sh
 
+# Import Node.js
+. desktop/nodejs.sh
+
 # Import PyCharm Community
 . desktop/pycharm.sh
 
