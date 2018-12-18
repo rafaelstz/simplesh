@@ -68,6 +68,7 @@ Below is the complete list of commands and applications that are included in Sim
 * `spotify.sh` - Install [Spotify](https://www.spotify.com).
 * `sublimetext.sh` - Install the [Sublime Text 3](http://www.sublimetext.com/) editor.
 * `terminator.sh` - Install [Terminator](https://code.google.com/archive/p/jessies/wikis/Terminator.wiki), a terminal emulator.
+* `yarn` - Install [Yarn](https://yarnpkg.com/en/), fast, reliable, and secure dependency management.
 * `vscode.sh` - Install [Visual Studio Code](https://code.visualstudio.com/), the open source code editor.
 
 ## How can you help?
