@@ -34,6 +34,9 @@
 # Import Chrome
 . desktop/chrome.sh
 
+# Import Chromium
+. desktop/chromium.sh
+
 # Import Gimp
 . desktop/gimp.sh
 
