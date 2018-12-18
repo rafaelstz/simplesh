@@ -13,6 +13,9 @@
 # Import Brackets
 . desktop/brackets.sh
 
+# Import Brave
+. desktop/brave.sh
+
 # Import Atom
 . desktop/atom.sh
 
@@ -31,6 +34,9 @@
 # Import Chrome
 . desktop/chrome.sh
 
+# Import Chromium
+. desktop/chromium.sh
+
 # Import Gimp
 . desktop/gimp.sh
 
@@ -42,6 +48,9 @@
 
 # Import Musique
 . desktop/musique.sh
+
+# Import Node.js
+. desktop/nodejs.sh
 
 # Import PyCharm Community
 . desktop/pycharm.sh
