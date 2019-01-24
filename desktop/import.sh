@@ -58,7 +58,7 @@
 # Import PyCharm Professional
 . desktop/pycharm-pro.sh
 
-# Import PyCharm Professional
+# Import Rubymine 
 . desktop/rubymine.sh
 
 # Import Composer
@@ -78,3 +78,12 @@
 
 # Import Yarn
 . desktop/yarn.sh
+
+# Import git
+. desktop/git.sh
+
+# Import curl
+. desktop/curl.sh
+
+# Import Node Version Manager
+. desktop/nvm.sh

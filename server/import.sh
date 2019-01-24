@@ -18,12 +18,3 @@
 
 # Import N98 Magerun
 . server/n98.sh
-
-# Import git
-. server/git.sh
-
-# Import curl
-. server/curl.sh
-
-# Import node
-. server/node.sh

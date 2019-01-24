@@ -3,8 +3,6 @@
 # Developed by Nikhil Krishna Nair
 # Contact nikhilkrishna@gmail.com
 #
-sudo.sh(){
-	clear;
-	apt-get update;
-	apt install -y sudo;
+curl.sh(){
+    sudo apt install -y curl wget
 }
