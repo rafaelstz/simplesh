@@ -87,3 +87,6 @@
 
 # Import Node Version Manager
 . desktop/nvm.sh
+
+# Import Go Programming Language
+. desktop/go.sh
