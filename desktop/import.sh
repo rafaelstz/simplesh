@@ -90,3 +90,6 @@
 
 # Import Flatpak
 . desktop/flatpak.sh
+
+# Import Go Programming Language
+. desktop/go.sh
