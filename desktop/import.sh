@@ -87,3 +87,6 @@
 
 # Import Node Version Manager
 . desktop/nvm.sh
+
+# Import Flatpak
+. desktop/flatpak.sh
