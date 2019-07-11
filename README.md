@@ -55,7 +55,9 @@ Below is the complete list of commands and applications that are included in Sim
 * `docker.sh` - Install [Docker](https://www.docker.com/), the dev to ops choice for container platforms.
 * `dropbox.sh` - Install [Dropbox](https://www.dropbox.com/), the file synchronization utility.
 * `firefoxdev.sh` - Install [Firefox Developer Edition](https://www.mozilla.org/pt-BR/firefox/developer/).
+* `flatpak.sh` - Install the [Flatpak](https://flatpak.org/), the application distribution
 * `gimp.sh`  - Install [Gimp](https://www.gimp.org/).
+* `go.sh` - Install the [Go](https://golang.org/) programming language.
 * `googledrive.sh` - Install [Google Drive](https://www.google.com/intl/pt-BR/drive/download/).
 * `musique.sh` - Install [Musique Player](http://flavio.tordini.org/musique).
 * `nodejs.sh` - Install [Node.js](https://nodejs.org/en/), the JavaScript runtime built on Chrome's V8 JavaScript engine.
