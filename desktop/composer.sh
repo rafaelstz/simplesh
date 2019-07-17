@@ -8,7 +8,7 @@
 composer.sh(){
 
 sudo apt update
-sudo apt install curl php-cli php-mbstring
+sudo apt install php-cli php-mbstring
 
 cd ~
 
