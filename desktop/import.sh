@@ -13,6 +13,9 @@
 # Import Brackets
 . desktop/brackets.sh
 
+# Import Brave
+. desktop/brave.sh
+
 # Import Atom
 . desktop/atom.sh
 
@@ -31,6 +34,9 @@
 # Import Chrome
 . desktop/chrome.sh
 
+# Import Chromium
+. desktop/chromium.sh
+
 # Import Gimp
 . desktop/gimp.sh
 
@@ -43,13 +49,16 @@
 # Import Musique
 . desktop/musique.sh
 
+# Import Node.js
+. desktop/nodejs.sh
+
 # Import PyCharm Community
 . desktop/pycharm.sh
 
 # Import PyCharm Professional
 . desktop/pycharm-pro.sh
 
-# Import PyCharm Professional
+# Import Rubymine 
 . desktop/rubymine.sh
 
 # Import Composer
@@ -60,3 +69,27 @@
 
 #Import Terminator
 . desktop/termiantor.sh
+
+# Import VS Code
+. desktop/vscode.sh
+
+# Import Docker
+. desktop/docker.sh
+
+# Import Yarn
+. desktop/yarn.sh
+
+# Import git
+. desktop/git.sh
+
+# Import curl
+. desktop/curl.sh
+
+# Import Node Version Manager
+. desktop/nvm.sh
+
+# Import Flatpak
+. desktop/flatpak.sh
+
+# Import Go Programming Language
+. desktop/go.sh

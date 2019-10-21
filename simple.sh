@@ -26,7 +26,7 @@ ${txtblu}
 ===================================
 
         AutoInstall SH
-Create by Rafael Corrêa Gomes
+Created by Rafael Corrêa Gomes
 
 ===================================
 
